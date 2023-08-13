@@ -1,5 +1,5 @@
 const { collectMetrics } = require("./metrics");
-const { generateSuggestions } = require("./suggestions");
+// const { generateSuggestions } = require("./monitor");
 
 function performanceMonitoringMiddleware(req, res, next) {
 	const startTime = process.hrtime();
