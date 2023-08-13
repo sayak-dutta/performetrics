@@ -16,7 +16,14 @@
 
 // module.exports = performetrics;
 
-const monitor = require("./monitor");
+// const monitor = require("./monitor");
+
+// module.exports = {
+// 	monitor,
+// };
+
+const monitor = require("./monitor.js");
+// import monitor from "./monitor.js";
 
 module.exports = {
 	monitor,
